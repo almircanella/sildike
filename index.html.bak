@@ -114,7 +114,7 @@
             <p class="card-text">Clique para logar-se!</p>
           </div>
           <div class="card-footer">
-            <a href="dadosi.html" class="btn btn-primary">Acesso</a>
+            <a href="dadosi.html">Acesso</a>
           </div>
         </div>
       </div>

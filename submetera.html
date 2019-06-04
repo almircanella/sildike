@@ -33,7 +33,7 @@
             <a class="nav-link" href="about.html">Sobre nós</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Ajuda</a>
+            <a class="nav-link" href="full-width2.html">Ajuda</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contato</a>
@@ -47,9 +47,9 @@
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
               <a class="dropdown-item" href="full-width.html">Notícias</a>
-              <a class="dropdown-item" href="sidebar.html">Mapa do Site</a>
+              <a class="dropdown-item" href="sidebar.html"><mark>Mapa do Site</mark></a>
               <a class="dropdown-item" href="faq.html">FAQ</a>
-              <a class="dropdown-item" href="pricing.html"><mark>Nossos Preços</mark></a>
+              <a class="dropdown-item" href="pricing.html">Nossos Preços</a>
               
               <a class="dropdown-item" href="full-width3.html">Política de Privacidade</a>
             </div>
@@ -63,69 +63,53 @@
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Preços
-      <small>Confira e escolha a opção ideal para você!</small>
+    <h1 class="mt-4 mb-3">Área do Aluno: 
+      <small>Verifique, altere, solicite: mantenha seus projetos organizados!</small>
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-        <a href="index.html">Home</a>
+        <a href="index.html">Voce está em: Área do Aluno!</a>
       </li>
-      <li class="breadcrumb-item active">Preços</li>
+      <li class="breadcrumb-item active">Submeter Projeto</li>
     </ol>
 
     <!-- Content Row -->
     <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h3 class="card-header">Básico</h3>
-          <div class="card-body">
-            <div class="display-4">R$19.99</div>
-            <div class="font-italic">mensal</div>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-            <li class="list-group-item">
-              <a href="#" class="btn btn-primary">Contratar!</a>
-            </li>
-          </ul>
+      <!-- Sidebar Column -->
+      <div class="col-lg-3 mb-4">
+        <div class="list-group">
+		<a href="dadosa.html" class="list-group-item">Meus Dados</a>
+          <a href="projetosa.html" class="list-group-item">Meus Projetos</a>
+          <a href="submetera.html" class="list-group-item"><mark>Submeter Projetos</mark></a>
+          <a href="ebook.html" class="list-group-item">Material de Apoio</a>
+       
         </div>
       </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card card-outline-primary h-100">
-          <h3 class="card-header bg-primary text-white">Padrão</h3>
-          <div class="card-body">
-            <div class="display-4">R$39.99</div>
-            <div class="font-italic">mensal</div>
+      <!-- Content Column -->
+      <div class="col-lg-9 mb-4">
+        <h2>Tem algum projeto inovador em mente e precisa de suporte?</h2>
+        <p>Envie-nos com detalhes sua idéia que realizaremos uma análise sobre a viabilidade, custos e retornaremos o mais breve possível apontando o que é necessário para que um possível investimento possa ocorrer</p>
+		
+		 <!-- Contact Form -->
+    <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <div class="row">
+      <div class="col-lg-8 mb-4">
+        <h3>Envie nos uma mensagem</h3>
+        <form name="sentMessage" id="contactForm" novalidate>
+          
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Mensagem:</label>
+              <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Sua mensagem aqui..." maxlength="999" style="resize:none"></textarea>
+            </div>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-            <li class="list-group-item">
-              <a href="#" class="btn btn-primary">Contratar!</a>
-            </li>
-          </ul>
-        </div>
+          <div id="success"></div>
+          <!-- For success/fail messages -->
+          <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar Mensagem</button>
+        </form>
       </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h3 class="card-header">Ultra</h3>
-          <div class="card-body">
-            <div class="display-4">R$159.99</div>
-            <div class="font-italic">mensal</div>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-            <li class="list-group-item">
-              <a href="#" class="btn btn-primary">Contratar!</a>
-            </li>
-          </ul>
-        </div>
+		
       </div>
     </div>
     <!-- /.row -->
