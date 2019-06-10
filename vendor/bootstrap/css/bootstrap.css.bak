@@ -4194,6 +4194,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  background-color: #e74c3c;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -9885,3 +9886,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+#samusaran{
+	background-color: #e74c3c";
+}
